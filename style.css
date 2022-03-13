@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.ch{
+    margin: 90px auto;
+    width: 600px;
+    height: 250px;
+    background-image: linear-gradient(to bottom, hsla(276.9, 75.7%, 40.4%, 0.56), hsla(276.7, 82.9%, 27.5%, 0.67)), url(./images/image-header-desktop.jpg);
+    background-position: right;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-color:  hsl(244, 38%, 16%);
+    color: white;
+}
+
+.info{
+    height: 25px;
+    width: 270px;
+}
+.titre{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-top: 45px;
+    padding-right: 50px;
+    margin: 10px;
+    Font-size: 15px;
+
+}
+.titre span{
+    color:  hsl(277, 64%, 61%);
+}
+
+
+.p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 12px;
+    padding-right: 50px;
+    color:hsla(0, 0%, 100%, 0.6) ;    
+    font-size: 7px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.so{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    padding-left: 11px;
+    text-transform:uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 38px;
+}
+.so span{
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 7px;
+}
+
+
+@media (max-width :784px){
+    .ch{
+        margin: 90px auto;
+        width: 200px;
+        height: 550px;
+        background-position: top;
+        background-color:hsl(244, 38%, 16%);
+    }
+    .info {
+        position: absolute;
+        bottom: 736px;
+        padding: 0px 15px;
+        margin-left: -7px;
+        width: 189px;
+    }
+    .titre{
+        padding: 45px 15px 0px;
+        text-align: center;
+    }
+    .p{
+        padding: 0px 35px;
+        text-align: center;
+    }
+    .so{
+        display: block;
+        width: 30px;
+        margin: 0 auto;
+        padding: 38px 0 0 0;
+    }
+    .so div {
+        text-align: center;
+    }
+}
